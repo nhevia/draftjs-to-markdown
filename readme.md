@@ -1,3 +1,6 @@
+#### Fork note:
+> Fixes https://github.com/jpuri/draftjs-to-markdown/issues/10 
+
 # DraftJS TO Markdown
 
 A library for converting DraftJS editor content to markdown.
@@ -6,12 +9,12 @@ This is draft to markdown library I wrote for one of my projects. I am open-sour
 
 ## Installation
 
-`npm install draftjs-to-markdown`
+`npm install @nhevia/draftjs-to-markdown`
 
 ## Usage
 
 ```js
-import draftToMarkdown from 'draftjs-to-markdown';
+import draftToMarkdown from '@nhevia/draftjs-to-markdown';
 import { convertToRaw } from 'draft-js';
 
 const rawContentState = convertToRaw(editorState.getCurrentContent());
